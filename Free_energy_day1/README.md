@@ -6,21 +6,32 @@ This content was prepared for the Symposium on Molecular Interactions in Chemist
 ## Basic outline of the day
 
 ### Morning lecture/theory session:
-- Force fields
+- Force fields (Vohringer-Martinez; about 1 hr 15 min)
 - Break
-- Free energy calculations
+- Free energy calculations (Mobley; about 1 hr 15 min)
 
 ### Afternoon hands-on/tutorial session:
-- Basic hydration free energy calculations with Yank/OpenMM
-- Break
-- Analysis and a view of what's going on under the hood/using OpenMM
-- Break
-- A binding example: Host-guest docking and free energy setup with visualization
+- Basic hydration free energy calculations with Yank/OpenMM (1.5 hours)
+  - Pick your favorite (small) molecule and start an implicit solvent hydration free energy calculation using prepared code, with Yank (using OpenMM)
+  - Discuss how to prepare molecules more generally (Jupyter notebook)
+  - Look at what Yank is doing, briefly discuss why
+  - Analyze a sample explicit solvent hydration calculation (?)
+  - Discuss analysis/mixing
+- Break (15 min)
+- Analysis and a view of what's going on under the hood/using OpenMM (1 hour)
+    - Analyze implicit solvent hydration calculation run earlier
+    - Look at some OpenMM basics and the example of a solution density calculation which stops when converged, using GAFF and SMIRNOFF force fields; sample output data provided. Jupyter notebook for analysis.
+
+- Break (15 min)
+- A binding example: Host-guest docking and free energy setup with visualization (1 hour)
+    - Jupyter notebook with guest structure preparation, host-guest docking, visualization, running a short OpenMM simulation
+    - Preparation of inputs for binding calculations for Yank -- example provided; may not be time to work through it
+    - Sample host-guest binding data and analysis provided (may or may not have time to work through it; determined based on interest and time)
 - We also provide further example materials/illustrations if you would like to continue along several alternate tracks
 
 ## Manifest
 - [`prerequisites.md`](prerequisites.md): The software you need for these tutorials should already be available on the computers you will use for this workshop. However, this document lists what you would need to install and how if you would like to use these tools on your own resources later.
-- 
+-
 
 ## Authors
 - David L. Mobley (UC Irvine)
