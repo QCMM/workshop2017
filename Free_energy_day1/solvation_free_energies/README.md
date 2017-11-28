@@ -9,6 +9,8 @@ Basically it provides a wrapper which helps create Yank YAML input for some comm
 
 For phenol, for example, in GBSA solvent, I get a hydration free energy of -10.077 +- 0.008 kT over 5000 iterations.
 Values for 500 iterations in implicit solvent are quite consistent; I obtain -10.038 +- 0.026 kT, so very similar.
+Implicit solvent converges particularly rapidly for small rigid solutes, since there is very little to sample.
+For molecules with rotatable bonds, many more iterations may be required, even in implicit solvent.
 
 See `python run_hydration.py` for usage information
 
