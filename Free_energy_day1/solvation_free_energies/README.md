@@ -7,6 +7,9 @@ Basically it provides a wrapper which helps create Yank YAML input for some comm
 - From mol2, sdf, or pdb files
 - From SMILES or IUPAC names
 
+For phenol, for example, in GBSA solvent, I get a hydration free energy of -10.077 +- 0.008 kT over 5000 iterations.
+Values for 500 iterations in implicit solvent are quite consistent; I obtain -10.038 +- 0.026 kT, so very similar.
+
 See `python run_hydration.py` for usage information
 
 ## Manifest
