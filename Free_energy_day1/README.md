@@ -12,7 +12,7 @@ This content was prepared for the Symposium on Molecular Interactions in Chemist
 
 ### Afternoon hands-on/tutorial session:
 - Basic hydration free energy calculations with Yank/OpenMM (1.5 hours)
-  - Pick your favorite (small) molecule and start an implicit solvent hydration free energy calculation using prepared code, with Yank (using OpenMM)
+  - Pick your favorite (small) molecule and start an implicit solvent hydration free energy calculation using prepared code, with Yank (using OpenMM). Do this using [`solvation_free_energies/run_hydration.py`](solvation_free_energies/run_hydration.py); see `python solvation_free_energies.py -h` and the README in that directory for further instructions.
   - Discuss how to prepare molecules more generally (Jupyter notebook)
   - Look at what Yank is doing, briefly discuss why
   - Analyze a sample explicit solvent hydration calculation (?)
@@ -31,7 +31,7 @@ This content was prepared for the Symposium on Molecular Interactions in Chemist
 
 ## Manifest
 - [`prerequisites.md`](prerequisites.md): The software you need for these tutorials should already be available on the computers you will use for this workshop. However, this document lists what you would need to install and how if you would like to use these tools on your own resources later.
--
+- [`solvation_free_energies`](solvation_free_energies): Content relating to calculation of solvation free energies.
 
 ## Authors
 - David L. Mobley (UC Irvine)
