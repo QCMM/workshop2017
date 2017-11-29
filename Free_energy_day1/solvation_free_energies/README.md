@@ -15,4 +15,11 @@ For molecules with rotatable bonds, many more iterations may be required, even i
 See `python run_hydration.py` for usage information
 
 ## Manifest
+
+### Things you may want to use
 - [`run_hydration.py`](run_hydration.py): Hydration free energy calculation script which just drives Yank hydration free energy calculations
+- [`Session1.ipynb`](Session1.ipynb): Jupyter notebook with Session 1's contents/examples.
+
+### Supporting materials
+- [`images`](images): Images used by files here, especially Jupyter notebooks.
+- [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here.
