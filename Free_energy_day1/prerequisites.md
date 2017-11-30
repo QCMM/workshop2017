@@ -43,10 +43,11 @@ conda install -c omnia openmm==7.1.0rc1 openforcefield parmed yank openmoltools 
 # Install oeommtools for interfacing OpenEye and OpenMM
 conda install -c OpenEye/label/Orion -c omnia oeommtools
 # Install some other useful libraries
-conda install -c conda-forge nb_conda mpld3 scikit-learn seaborn nglview
+conda install -c conda-forge nb_conda mpld3 scikit-learn seaborn
+conda install -c bioconda nglview
 ```
 
-For `nglview` viewing of 3D structures within a Jupyter notebook, you will likely also need to run (from the command-line) `jupyter nbextension install --py nglview-js-widgets --user` and `jupyter-nbextension enable nglview --py --sys-prefix`.
+For `nglview` viewing of 3D structures within a Jupyter notebook, you will likely also need to run (from the command-line) `jupyter-nbextension enable nglview --py --sys-prefix`.
 
 
 ## Additional materials can be installed via pip, such as the OpenEye toolkits
