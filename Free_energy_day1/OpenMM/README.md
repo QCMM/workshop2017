@@ -1,0 +1,13 @@
+# OpenMM information/introduction and density calculation
+
+This provides a very brief introduction to OpenMM, and a sample density calculation with OpenMM.
+The key material is [`Session2.ipynb`][Session2.ipynb].
+
+## Manifest
+
+### Things you may want to use
+- [`Session2.ipynb`](Session2.ipynb): Jupyter notebook with Session 2's contents/examples.
+
+### Supporting materials
+- [`images`](images): Images used by files here, especially Jupyter notebooks.
+- [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here.
