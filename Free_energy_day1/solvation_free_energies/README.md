@@ -1,7 +1,9 @@
 # Solvation free energies in implicit and explicit solvent with Yank
 
-This directory provides `run_hydration.py`, a simple command-line script which runs Yank.
-Basically it provides a wrapper which helps create Yank YAML input for some common use cases, allowing hydration free energy calculations:
+This directory provides Session 1's material on solvation free energy calculations; the key content is in the Jupyter notebook [`Session1.ipynb`](Session1.ipynb) which can be launched from the command-line by `jupyter notebook Session1.ipynb`.
+
+This also draws on `run_hydration.py`, a simple command-line script which runs Yank.
+Basically this script provides a wrapper which helps create Yank YAML input for some common use cases, allowing hydration free energy calculations:
 - in implicit solvent (GBSA)
 - in explicit solvent (TIP3P, but easily generalizable to TIP4PEw)
 - From mol2, sdf, or pdb files
@@ -23,3 +25,4 @@ See `python run_hydration.py` for usage information
 ### Supporting materials
 - [`images`](images): Images used by files here, especially Jupyter notebooks.
 - [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here.
+- [`data_phenol_explicit.tar.gz`](data_phenol_explicit.tar.gz): 1000 iteration explicit solvent hydration free energy calculation of phenol in TIP3P water; run from compound name. Yields value -5.647 +- 0.147 kcal/mol.
