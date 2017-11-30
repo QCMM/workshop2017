@@ -25,4 +25,4 @@ See `python run_hydration.py` for usage information
 ### Supporting materials
 - [`images`](images): Images used by files here, especially Jupyter notebooks.
 - [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here.
-- [`data_phenol_explicit.tar.gz`](data_phenol_explicit.tar.gz): 1000 iteration explicit solvent hydration free energy calculation of phenol in TIP3P water; run from compound name. Yields value -5.647 +- 0.147 kcal/mol.
+- [`data_phenol_explicit.tar.gz`](data_phenol_explicit.tar.gz): 1000 iteration explicit solvent hydration free energy calculation of phenol in TIP3P water; run from compound name. Yields value -5.647 +- 0.147 kcal/mol. Experiment: -6.60+/-0.20 kcal/mol; previously calculated (FreeSolv) -5.71+/-0.03 kcal/mol.
