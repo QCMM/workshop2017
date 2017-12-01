@@ -20,7 +20,7 @@ We obtain the following values from this and longer simulations:
 This folder contains:
 - `harmonic.yaml`:   Yaml script for these calculations, using harmonic restraints
 - `input`: Simulation inputs; cyclopentanol (same molecule as for the hydration free energy calculation) was taken from `https://github.com/MobleyLab/benchmarksets/input_files/cd-set1/mol2/guest-4.mol2`(renumbering residue 7 to 1); for α-cyclodextrin: we obtained the input mol2 from `https://github.com/MobleyLab/benchmarksets/input_files/cd-set1/mol2/host-acd.mol2` and, to avoid a bug with some of the tools utilized (requiring cyclic molecules not have multiple residues) we renumbered residues 2,3,4,5 and 6 as residue 1.
-- `harmonic-out`: Output files, as well as analysis jupyter notebook, etc. (Will need to be extracted from `harmonic-out.tar.gz` prior to use.)
+- `harmonic-out`: Output files, as well as analysis jupyter notebook, etc.
 
 ### Analysis
 
