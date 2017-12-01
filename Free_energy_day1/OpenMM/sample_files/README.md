@@ -9,6 +9,7 @@
 - `mobley_20524.prmtop`, `.inpcrd`, `.top`, and `.gro`: Phenol (from FreeSolv) parameterized systems in AMBER and GROMACS formats. In the AMBER case, phenol is in vacuum; in the GROMACS case, in TIP3P water.
 - [`input.pdb`]: OpenMM example villin headpiece input pdb (openmm/examples/input.pdb)
 - [`density_sample.csv`](desity_sample.csv): Sample density versus time trace for phenol/toluene/cyclohexane mixture (1 molecule, 10 molecules, 100 molecules) generated via `Session2.ipynb`.
+- [`host-guest-data`](host-guest-data): Sample short host-guest binding free energy calculation
 
 ### Potentially generated:
 - `mixture_output.pdb`: Output of energy minimization of a mixture
