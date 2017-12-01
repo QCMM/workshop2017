@@ -6,3 +6,7 @@ phenol.frcmod
 phenol.gaff.mol2
 phenol.inpcrd
 phenol.prmtop
+
+# Additional output files from Session2.ipynb
+sample_files/mixture_output.pdb
+sample_files/phenol_toluene_cyclohexane_1_10_100.csv
