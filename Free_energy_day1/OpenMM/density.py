@@ -92,7 +92,7 @@ CUTOFF = 0.95 * nanometers
 TEMPERATURE = 300 * kelvin
 PRESSURE = 1.0 * atmospheres
 #Density STD tolerance
-STD_ERROR_TOLERANCE = 0.05 # g/mL
+STD_ERROR_TOLERANCE = 0.0005 # g/mL
 
 
 #---------------END USER INFO---------------

@@ -1,5 +1,5 @@
 # Output of packmol setup/solvationtoolkit
 npt
 nvt
-prod
+prod/*.dcd
 *.xml
