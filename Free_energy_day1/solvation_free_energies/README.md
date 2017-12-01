@@ -13,6 +13,7 @@ For phenol, for example, in GBSA solvent, I get a hydration free energy of -10.0
 Values for 500 iterations in implicit solvent are quite consistent; I obtain -10.038 +- 0.026 kT, so very similar.
 Implicit solvent converges particularly rapidly for small rigid solutes, since there is very little to sample.
 For molecules with rotatable bonds, many more iterations may be required, even in implicit solvent.
+I did also run an explicit solvent calculation for phenol (from name) for 1000 iterations and obtained a value of -5.647 +- 0.147 kcal/mol. Experiment: -6.60+/-0.20 kcal/mol; previously calculated (FreeSolv) -5.71+/-0.03 kcal/mol.
 
 See `python run_hydration.py` for usage information
 
@@ -24,5 +25,4 @@ See `python run_hydration.py` for usage information
 
 ### Supporting materials
 - [`images`](images): Images used by files here, especially Jupyter notebooks.
-- [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here.
-- [`data_phenol_explicit.tar.gz`](data_phenol_explicit.tar.gz): 1000 iteration explicit solvent hydration free energy calculation of phenol in TIP3P water; run from compound name. Yields value -5.647 +- 0.147 kcal/mol. Experiment: -6.60+/-0.20 kcal/mol; previously calculated (FreeSolv) -5.71+/-0.03 kcal/mol.
+- [`sample_files`](sample_files): Other files, such as molecule inputs, used by Jupyter notebooks here; also a sample explicit solvent hydration free energy calculation.

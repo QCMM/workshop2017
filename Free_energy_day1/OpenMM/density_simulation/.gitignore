@@ -1,0 +1,5 @@
+# Output of packmol setup/solvationtoolkit
+npt
+nvt
+prod
+*.xml
