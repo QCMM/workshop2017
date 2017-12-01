@@ -39,7 +39,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 conda install gcc libgfortran
 
 # Install OpenMM, openforcefield, yank, parmed, and openmoltools
-conda install -c omnia openmm==7.1.0rc1 openforcefield parmed yank openmoltools pdbfixer solvationtoolkit
+conda install -c omnia openmm openforcefield parmed yank=0.17 openmoltools pdbfixer solvationtoolkit
 # Install oeommtools for interfacing OpenEye and OpenMM
 conda install -c OpenEye/label/Orion -c omnia oeommtools
 # Install some other useful libraries
