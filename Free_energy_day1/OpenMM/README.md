@@ -8,6 +8,7 @@ The key material is [`Session2.ipynb`][Session2.ipynb].
 ### Things you may want to use
 - [`Session2.ipynb`](Session2.ipynb): Jupyter notebook with Session 2's contents/examples. If you have trouble executing this for some reason, you can VIEW its results/content at [`Session2.html`](Session2.html)
 - [`density.py`](density.py): Script for estimated the density of a mixture (with input files already prepared); gives an example of how one could do production-level calculations with OpenMM that iterate until converged. Referenced in `Session2.ipynb`
+- [`Session3.ipynb`](Session3.ipynb): Jupyter notebook with Session 3's contents/examples. If you have trouble executing this for some reason, you can VIEW its contents/results at [`Session3.html`](Session3.html)
 
 ### Supporting materials
 - [`images`](images): Images used by files here, especially Jupyter notebooks.

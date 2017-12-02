@@ -15,3 +15,7 @@
 
 ### Potentially generated:
 - `mixture_output.pdb`: Output of energy minimization of a mixture
+- `guest_in_water`: Output of Session 3 notebook
+- `guest.pdb`: Output of Session 3 notebook
+- `guest_solvated.xml`: Output of Session 3 notebook
+- `complex_solvated.xml`: Output of Session 3 notebook.

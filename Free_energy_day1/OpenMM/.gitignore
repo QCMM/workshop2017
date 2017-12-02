@@ -15,3 +15,7 @@ sample_files/docked_guest.mol2
 sample_files/data.csv
 sample_files/complex*.pdb
 sample_files/trajectory*.nc
+sample_files/guest_in_water
+sample_files/complex_solvated.xml
+sample_files/guest_solvated.xml
+sample_files/guest.pdb
