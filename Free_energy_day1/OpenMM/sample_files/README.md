@@ -11,6 +11,11 @@
 - [`density_sample.csv`](desity_sample.csv): Sample density versus time trace for phenol/toluene/cyclohexane mixture (1 molecule, 10 molecules, 100 molecules) generated via `Session2.ipynb`.
 - [`host-guest-data`](host-guest-data): Sample short host-guest binding free energy calculation
 - `hbonds.ffxml`: FFXML file for constraining hydrogen bonds with SMIRNOFF; from `openforcefield/examples/host-guest-simulation`
+- `OA.mol2`, Gibb octa acid host from `openforcefield/examples/host-guest-simulation`
 
 ### Potentially generated:
 - `mixture_output.pdb`: Output of energy minimization of a mixture
+- `guest_in_water`: Output of Session 3 notebook
+- `guest.pdb`: Output of Session 3 notebook
+- `guest_solvated.xml`: Output of Session 3 notebook
+- `complex_solvated.xml`: Output of Session 3 notebook.
