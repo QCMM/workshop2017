@@ -10,3 +10,8 @@ phenol.prmtop
 # Additional output files from Session2.ipynb
 sample_files/mixture_output.pdb
 sample_files/phenol_toluene_cyclohexane_1_10_100.csv
+sample_files/host.mol2
+sample_files/docked_guest.mol2
+sample_files/data.csv
+sample_files/complex*.pdb
+sample_files/trajectory*.nc
